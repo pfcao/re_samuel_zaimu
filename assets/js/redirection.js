@@ -1,4 +1,6 @@
 //blog-post, - _ 20-f 
+var q = document.location.pathname.toLowerCase();
+window.location = "http://samuel.tingdao.org/"+q;
 var dict={
 f1302 : 01,
 f1301 : 19,
